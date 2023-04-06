@@ -1,0 +1,22 @@
+﻿
+
+#unathorizeDiv {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    border: 4px solid #4c5870;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#unathorizeDiv h4 {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#unathorizeButton {
+    margin-bottom: 20px;
+    margin: 20px;
+    background-color: #4c5870;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

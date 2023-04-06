@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ValidationRules\FluentValidation\Nutrients\**" />
+    <Compile Remove="ValidationRules\FluentValidation\PlaceToVisits\**" />
+    <EmbeddedResource Remove="ValidationRules\FluentValidation\Nutrients\**" />
+    <EmbeddedResource Remove="ValidationRules\FluentValidation\PlaceToVisits\**" />
+    <None Remove="ValidationRules\FluentValidation\Nutrients\**" />
+    <None Remove="ValidationRules\FluentValidation\PlaceToVisits\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TouristProject.DataAccess\TouristProject.DataAccess.csproj" />
+    <ProjectReference Include="..\TouristProject.Entities\TouristProject.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+﻿@model TouristProject.WebMVC.Models.Categories.CategoryAddViewModel
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Admins/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add</h1>
+
+<div class="container">
+    <form asp-controller="Categories" asp-action="Add" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" id="Name" type="text" class="form-control" placeholder="Kategori Adı" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button class="btn badge-primary" type="submit" value="Add" id="addCategory">Kaydet</button>
+            @ViewBag.CategoryResultMessage
+
+        </div>
+    </form>
+</div>

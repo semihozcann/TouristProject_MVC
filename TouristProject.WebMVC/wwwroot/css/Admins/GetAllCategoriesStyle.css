@@ -1,0 +1,43 @@
+﻿body {
+}
+
+#categoryListTable {
+    margin-top:20px;
+    border-radius: 10px;
+    border: 3px solid #4c5870;
+}
+
+#categoryListTable thead{
+    font-size:large;
+    font-weight: 600;
+}
+
+#categoryListTable td{
+    border: 1px solid #4c5870;
+}
+
+#categoryListTableButton {
+    background-color: #4c5870;
+    margin:auto;
+    padding:5px;
+}
+
+#categoryAddButton {
+    background-color: #4c5870;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+#addButtonTable {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #4c5870;
+    max-width:500px;
+    min-height: 50px;
+}
+
+#addButtonTable td{
+    padding-top:12px;
+}

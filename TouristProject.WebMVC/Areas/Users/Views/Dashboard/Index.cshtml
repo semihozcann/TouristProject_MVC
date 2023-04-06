@@ -1,0 +1,48 @@
+﻿@model TouristProject.WebMVC.Models.Nutrients.NutrientListViewModel;
+
+
+@{
+    ViewData["Title"] = "/Index";
+    Layout = "~/Areas/Users/Views/Shared/_Layout.cshtml";
+}
+
+<div id="cartDiv">
+    @if (Model != null)
+    {
+        @foreach (var nutrient in Model.Nutrients.Nutrients)
+        {
+            <div class="card" style="width: 15rem;">
+                <img src="/img/yemek.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">@nutrient.Name</h5>
+                    <p class="card-text">@nutrient.SmallDescription</p>
+
+                    <div class="ratings">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <h5 class="review-count">12 Yorum</h5>
+                            </div>
+                            <div class="col-sm-5">
+                                <a href="#" class="btn btn-primary" id="cardCommentButton">Yorumları Oku</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <a href="#" class="btn btn-primary" id="cardButton">Detaylı Bilgi</a>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Bir kayıt bulunamadı</p>
+    }
+
+</div>
+
