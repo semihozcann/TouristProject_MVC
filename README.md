@@ -11,7 +11,6 @@
     <li>:arrow_right:  Dependency solver infrastructure is prepared on the backend side via Autofac Library.</li>
     <li>:arrow_right:  Verification infrastructure has been prepared over the Fruit Validation Library.</li>
     <li>:arrow_right:  The infrastructure for user registration and login processes has been prepared with the Microsoft Identity library.</li>
-    <li>:arrow_right:  Hashing and encryption infrastructure has been prepared for user passwords for security.</li>
     <li>:arrow_right:  Authorization infrastructure has been prepared for security.</li>
     <li>:arrow_right:  The endpoint infrastructure has been prepared for the responses of requests to the client.</li>
     <li>:arrow_right:  Multi-layout structure is used in the client interface. Separate Areas have been created for Admin and User.</li>
