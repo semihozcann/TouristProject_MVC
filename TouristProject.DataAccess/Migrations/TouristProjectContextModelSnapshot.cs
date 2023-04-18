@@ -95,7 +95,7 @@ namespace TouristProject.DataAccess.Migrations
                         .HasMaxLength(400)
                         .HasColumnType("nvarchar(400)");
 
-                    b.Property<string>("ImagePath")
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Ingredients")
@@ -203,6 +203,39 @@ namespace TouristProject.DataAccess.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("NutrientFavorities");
+                });
+
+            modelBuilder.Entity("TouristProject.Entities.Concrete.NutrientImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("NutrientId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NutrientId");
+
+                    b.ToTable("NutrientImages");
                 });
 
             modelBuilder.Entity("TouristProject.Entities.Concrete.PlaceToVisit", b =>
@@ -340,6 +373,39 @@ namespace TouristProject.DataAccess.Migrations
                     b.ToTable("PlaceToVisitFavorities");
                 });
 
+            modelBuilder.Entity("TouristProject.Entities.Concrete.PlaceToVisitImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PlaceToVisitId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlaceToVisitId");
+
+                    b.ToTable("PlaceToVisitImages");
+                });
+
             modelBuilder.Entity("TouristProject.Entities.Concrete.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -375,7 +441,7 @@ namespace TouristProject.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "3d5fbf0c-acdc-48d9-9651-53da0e3c63c7",
+                            ConcurrencyStamp = "8b2d818b-3fba-407b-9267-0e8aad67940f",
                             Description = "Admin Account",
                             Name = "Admin",
                             NormalizedName = "ADMİN"
@@ -383,7 +449,7 @@ namespace TouristProject.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "6e530aba-8da1-4c00-86cf-7e872ba3d8dd",
+                            ConcurrencyStamp = "62d97666-7321-4ffe-a853-6d85ecbd758b",
                             Description = "User Account",
                             Name = "User",
                             NormalizedName = "USER"
@@ -629,6 +695,17 @@ namespace TouristProject.DataAccess.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("TouristProject.Entities.Concrete.NutrientImage", b =>
+                {
+                    b.HasOne("TouristProject.Entities.Concrete.Nutrient", "Nutrient")
+                        .WithMany("NutrientImages")
+                        .HasForeignKey("NutrientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Nutrient");
+                });
+
             modelBuilder.Entity("TouristProject.Entities.Concrete.PlaceToVisitComment", b =>
                 {
                     b.HasOne("TouristProject.Entities.Concrete.PlaceToVisit", "PlaceToVisit")
@@ -665,6 +742,17 @@ namespace TouristProject.DataAccess.Migrations
                     b.Navigation("PlaceToVisit");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TouristProject.Entities.Concrete.PlaceToVisitImage", b =>
+                {
+                    b.HasOne("TouristProject.Entities.Concrete.PlaceToVisit", "PlaceToVisit")
+                        .WithMany("PlaceToVisitImage")
+                        .HasForeignKey("PlaceToVisitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PlaceToVisit");
                 });
 
             modelBuilder.Entity("TouristProject.Entities.Concrete.RoleClaim", b =>
@@ -716,6 +804,16 @@ namespace TouristProject.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("TouristProject.Entities.Concrete.Nutrient", b =>
+                {
+                    b.Navigation("NutrientImages");
+                });
+
+            modelBuilder.Entity("TouristProject.Entities.Concrete.PlaceToVisit", b =>
+                {
+                    b.Navigation("PlaceToVisitImage");
                 });
 #pragma warning restore 612, 618
         }

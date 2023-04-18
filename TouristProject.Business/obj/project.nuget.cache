@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3QcTVfNPA7IjjJwxlqFuHowowA4XpaGTWs01d6Ek+NcTEjVnShIyGRbQZn9K+FgozmxXVw13vl0HxWgkrkPawQ==",
+  "dgSpecHash": "DXbaJCMEZNv/+INPkFWhXqotWEaA9lDCB0MwJl2dK6C9rKvqc+CbnJvZhJiXMWDbipt+R6BEruuG0TLbRuqK3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\semih\\Desktop\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.Business\\TouristProject.Business.csproj",
+  "projectFilePath": "C:\\Users\\semih\\Desktop\\C# Kodları\\Biten Yazılımlar\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.Business\\TouristProject.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\semih\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\semih\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",

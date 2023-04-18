@@ -43,12 +43,16 @@ namespace TouristProject.DataAccess.Concrete.EntityFramework.Context
         }
 
         public DbSet<Category> Categories { get; set; }
+
         public DbSet<Nutrient> Nutrients { get; set; }
         public DbSet<NutrientComment> NutrientComments { get; set; }
         public DbSet<NutrientFavorite> NutrientFavorites { get; set; }
+        public DbSet<NutrientImage> NutrientImages { get; set; }
+
         public DbSet<PlaceToVisit> PlaceToVisits { get; set; }
         public DbSet<PlaceToVisitComment> PlaceToVisitComments { get; set; }
         public DbSet<PlaceToVisitFavorite> PlaceToVisitFavorites { get; set; }
+        public DbSet<PlaceToVisitImage> PlaceToVisitImages { get; set; }
 
         //db kurallarını burada db olusturken veriyoruz. 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -67,10 +71,13 @@ namespace TouristProject.DataAccess.Concrete.EntityFramework.Context
             builder.ApplyConfiguration(new NutrientMap());
             builder.ApplyConfiguration(new NutrientCommentMap());
             builder.ApplyConfiguration(new NutrientFavoriteMap());
+            builder.ApplyConfiguration(new NutrientImageMap());
 
             builder.ApplyConfiguration(new PlaceToVisitMap());
             builder.ApplyConfiguration(new PlaceToVisitCommentMap());
             builder.ApplyConfiguration(new PlaceToVisitFavoriteMap());
+            builder.ApplyConfiguration(new PlaceToVisitImageMap());
+
 
 
         }

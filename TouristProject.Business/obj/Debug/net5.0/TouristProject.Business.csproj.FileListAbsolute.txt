@@ -91,3 +91,22 @@ C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristPr
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\refint\TouristProject.Business.dll
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.pdb
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\ref\TouristProject.Business.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Business.deps.json
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Business.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Business.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.DataAccess.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Entities.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Shared.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.DataAccess.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Entities.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\bin\Debug\net5.0\TouristProject.Shared.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.csproj.AssemblyReference.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.AssemblyInfoInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.AssemblyInfo.cs
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.csproj.CopyComplete
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\refint\TouristProject.Business.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\TouristProject.Business.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.Business\obj\Debug\net5.0\ref\TouristProject.Business.dll

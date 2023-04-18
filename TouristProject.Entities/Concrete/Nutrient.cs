@@ -14,8 +14,9 @@ namespace TouristProject.Entities.Concrete
         public string Description { get; set; }
         public string SmallDescription { get; set; }
         public string Ingredients { get; set; }
-        public string ImagePath { get; set; }
+        public string ImageUrl { get; set; }
 
         public virtual Category Category { get; set; }
+        public List<NutrientImage> NutrientImages { get; set; }
     }
 }

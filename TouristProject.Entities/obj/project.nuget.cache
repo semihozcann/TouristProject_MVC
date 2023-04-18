@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qoJ00QDj9q5Hq0GbRHcu8/sJaAKLaLFcmWhSVICs3iKmkkab82qbGGLcufSKg3aG/CUvwffKrA56hyXLbE4ycQ==",
+  "dgSpecHash": "fNpNhicgq/yoIID3zGdgVRuzupB3z2P2mqTgFr5baSKvydblBpJCsUFC6xFi2ateSFNfFAZdN3OF5cOmTKZbgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\semih\\Desktop\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.Entities\\TouristProject.Entities.csproj",
+  "projectFilePath": "C:\\Users\\semih\\Desktop\\C# Kodları\\Biten Yazılımlar\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.Entities\\TouristProject.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\semih\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\semih\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

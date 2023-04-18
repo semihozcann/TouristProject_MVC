@@ -16,8 +16,10 @@ using TouristProject.Business.DependencyResolvers.Autofac;
 using TouristProject.Shared.DependencyResolvers;
 using TouristProject.Shared.Extensions;
 using TouristProject.Shared.Utilities.IoC;
+using TouristProject.WebMVC.Abstract;
 using TouristProject.WebMVC.AutoMapper;
 using TouristProject.WebMVC.Configurations;
+using TouristProject.WebMVC.Helpers;
 
 namespace TouristProject.WebMVC
 {

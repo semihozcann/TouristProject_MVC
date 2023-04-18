@@ -10,7 +10,7 @@
         @foreach (var nutrient in Model.Nutrients.Nutrients)
         {
             <div class="card" style="width: 15rem;">
-                <img src="/img/yemek.jpg" class="card-img-top">
+                <img src="@nutrient.ImageUrl" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">@nutrient.Name</h5>
                     <p class="card-text">@nutrient.SmallDescription</p>

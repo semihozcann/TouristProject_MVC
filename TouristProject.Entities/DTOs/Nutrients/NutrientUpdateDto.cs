@@ -15,5 +15,7 @@ namespace TouristProject.Entities.DTOs.Nutrients
         public string Description { get; set; }
         public string SmallDescription { get; set; }
         public string Ingredients { get; set; }
+        public string ImageUrl { get; set; }
+
     }
 }

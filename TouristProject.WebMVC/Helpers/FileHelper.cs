@@ -39,9 +39,10 @@ namespace TouristProject.WebMVC.Helpers
                 Directory.CreateDirectory(uploads);
 
             var fileName = GenerateFileName(file.FileName);
-            var fileStream = new FileStream(Path.Combine(uploads, fileName), FileMode.Create);
+            var location = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", fileName);
+            var fileStream = new FileStream(location, FileMode.Create);
             file.CopyToAsync(fileStream);
-            return "/images/" + fileName;
+            return "/img/" + fileName;
 
         }
     }

@@ -16,7 +16,13 @@ namespace TouristProject.Business.DependencyResolvers
         //Bu kodların çalışması için Program.cs içerisinde AddDependencyResolvers metodu içerisinde new'lenerek AutoMapperModule classı eklenmelidir.
         public void Load(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddAutoMapper(typeof(CategoryProfile), typeof(NutrientProfile), typeof(PlaceToVisitProfile));
+            serviceCollection.AddAutoMapper(
+                typeof(CategoryProfile), 
+                typeof(NutrientProfile), 
+                typeof(NutrientImageProfile), 
+                typeof(PlaceToVisitProfile)
+                
+                );
         }
     }
 }

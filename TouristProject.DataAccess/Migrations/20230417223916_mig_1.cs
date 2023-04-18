@@ -212,7 +212,7 @@ namespace TouristProject.DataAccess.Migrations
                     Description = table.Column<string>(type: "nvarchar(400)", maxLength: 400, nullable: false),
                     SmallDescription = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Ingredients = table.Column<string>(type: "nvarchar(400)", maxLength: 400, nullable: false),
-                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
@@ -292,6 +292,30 @@ namespace TouristProject.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "PlaceToVisitImages",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PlaceToVisitId = table.Column<int>(type: "int", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PlaceToVisitImages", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_PlaceToVisitImages_PlaceToVisits_PlaceToVisitId",
+                        column: x => x.PlaceToVisitId,
+                        principalTable: "PlaceToVisits",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "NutrientComments",
                 columns: table => new
                 {
@@ -353,13 +377,37 @@ namespace TouristProject.DataAccess.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "NutrientImages",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NutrientId = table.Column<int>(type: "int", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_NutrientImages", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_NutrientImages_Nutrients_NutrientId",
+                        column: x => x.NutrientId,
+                        principalTable: "Nutrients",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { 1, "3d5fbf0c-acdc-48d9-9651-53da0e3c63c7", "Admin Account", "Admin", "ADMİN" },
-                    { 2, "6e530aba-8da1-4c00-86cf-7e872ba3d8dd", "User Account", "User", "USER" }
+                    { 1, "8b2d818b-3fba-407b-9267-0e8aad67940f", "Admin Account", "Admin", "ADMİN" },
+                    { 2, "62d97666-7321-4ffe-a853-6d85ecbd758b", "User Account", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -432,6 +480,11 @@ namespace TouristProject.DataAccess.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_NutrientImages_NutrientId",
+                table: "NutrientImages",
+                column: "NutrientId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Nutrients_CategoryId",
                 table: "Nutrients",
                 column: "CategoryId");
@@ -455,6 +508,11 @@ namespace TouristProject.DataAccess.Migrations
                 name: "IX_PlaceToVisitFavorities_UserId",
                 table: "PlaceToVisitFavorities",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PlaceToVisitImages_PlaceToVisitId",
+                table: "PlaceToVisitImages",
+                column: "PlaceToVisitId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -481,10 +539,16 @@ namespace TouristProject.DataAccess.Migrations
                 name: "NutrientFavorities");
 
             migrationBuilder.DropTable(
+                name: "NutrientImages");
+
+            migrationBuilder.DropTable(
                 name: "PlaceToVisitComments");
 
             migrationBuilder.DropTable(
                 name: "PlaceToVisitFavorities");
+
+            migrationBuilder.DropTable(
+                name: "PlaceToVisitImages");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

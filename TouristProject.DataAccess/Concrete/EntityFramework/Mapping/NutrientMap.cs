@@ -24,7 +24,7 @@ namespace TouristProject.DataAccess.Concrete.EntityFramework.Mapping
             builder.Property(n => n.SmallDescription).HasMaxLength(50);
             builder.Property(n => n.Ingredients).IsRequired();
             builder.Property(n => n.Ingredients).HasMaxLength(400);
-            builder.Property(n => n.ImagePath);
+            builder.Property(n => n.ImageUrl);
             builder.ToTable("Nutrients");
 
 

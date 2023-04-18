@@ -33,6 +33,9 @@ namespace TouristProject.Business.DependencyResolvers.Autofac
             builder.RegisterType<EfNutrientRepository>().As<INutrientRepository>();
             builder.RegisterType<NutrientManager>().As<INutrientService>();
 
+            builder.RegisterType<EfNutrientImageRepository>().As<INutrientImageRepository>();
+            builder.RegisterType<NutrientImageManager>().As<INutrientImageService>();
+
 
 
 

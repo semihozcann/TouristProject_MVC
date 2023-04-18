@@ -28,6 +28,13 @@ namespace TouristProject.Business.Constants
         public static string NutrientDeleted = "Besin silindi";
         public static string NutrientNotFound = "Besin bulunamadı";
 
+        public static string NutrientImageAdded = "Fotoğraf eklendi";
+        public static string NutrientImageUpdated = "Fotoğraf güncellendi";
+        public static string NutrientImageGeted = "Fotoğraf getirildi";
+        public static string NutrientImageListed = "Fotoğraflar listelendi";
+        public static string NutrientImageDeleted = "Fotoğraf silindi";
+        public static string NutrientImageNotFound = "Fotoğraf bulunamadı";
+
 
 
     }

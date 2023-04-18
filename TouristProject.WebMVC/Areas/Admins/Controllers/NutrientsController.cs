@@ -14,13 +14,17 @@ namespace TouristProject.WebMVC.Areas.Admins.Controllers
     public class NutrientsController : BaseController
     {
         private readonly INutrientService _nutrientService;
+        private readonly INutrientImageService _nutrientImageService;
         private readonly ICategoryService _categoryService;
+        private readonly IFileHelper _fileHelper;
 
 
-        public NutrientsController(IUserAccessor userAccessor, INutrientService nutrientService, ICategoryService categoryService) : base(userAccessor)
+        public NutrientsController(IUserAccessor userAccessor, INutrientService nutrientService, ICategoryService categoryService, IFileHelper fileHelper, INutrientImageService nutrientImageService) : base(userAccessor)
         {
             _nutrientService = nutrientService;
             _categoryService = categoryService;
+            _fileHelper = fileHelper;
+            _nutrientImageService = nutrientImageService;
         }
 
         public IActionResult Index()
@@ -57,6 +61,10 @@ namespace TouristProject.WebMVC.Areas.Admins.Controllers
                     SmallDescription = nutrientAddViewModel.SmallDescription,
                     Ingredients = nutrientAddViewModel.Ingredients
                 };
+
+                var fileName = nutrientAddViewModel.ImageUrl;
+                var imageFile = _fileHelper.UploadFile(fileName);
+                nutrient.ImageUrl = imageFile;
 
                 var result = await _nutrientService.AddAsync(nutrient);
                 nutrientAddViewModel.Message = result.Message;

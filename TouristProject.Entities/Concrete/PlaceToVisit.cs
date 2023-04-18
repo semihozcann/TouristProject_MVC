@@ -18,5 +18,8 @@ namespace TouristProject.Entities.Concrete
         public string CloseTime { get; set; }
         public string CloseDay { get; set; }
 
+
+        public List<PlaceToVisitImage> PlaceToVisitImage { get; set; }
+
     }
 }

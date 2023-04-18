@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5vClqp4wtnHgpGZv5YZQ0z83L0P8IJDadGiamEjByDNGCcFI640nYLa8wD4gyzzjUVUxAxoAQ3Bq7PxjnvwjPQ==",
+  "dgSpecHash": "3K2/ryc+TU+JPVdLpnNwIN2LNbpEJU054j8YCBRfZCjBaXk8zh8+5IoPg+5NfqQD/Lku4Wg/CN0J8fDjpY4EPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\semih\\Desktop\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.DataAccess\\TouristProject.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\semih\\Desktop\\C# Kodları\\Biten Yazılımlar\\Semih Özcan Tourist_Project\\TouristProject_MVC\\TouristProject.DataAccess\\TouristProject.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\semih\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\semih\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

@@ -96,3 +96,23 @@ C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristPr
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.pdb
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.genruntimeconfig.cache
 C:\Users\semih\Desktop\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\ref\TouristProject.DataAccess.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.DataAccess.deps.json
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.DataAccess.runtimeconfig.json
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.DataAccess.runtimeconfig.dev.json
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.DataAccess.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.DataAccess.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.Entities.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.Shared.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.Entities.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\bin\Debug\net5.0\TouristProject.Shared.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.csproj.AssemblyReference.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.AssemblyInfoInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.AssemblyInfo.cs
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.csproj.CopyComplete
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\refint\TouristProject.DataAccess.dll
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.pdb
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\TouristProject.DataAccess.genruntimeconfig.cache
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.DataAccess\obj\Debug\net5.0\ref\TouristProject.DataAccess.dll
