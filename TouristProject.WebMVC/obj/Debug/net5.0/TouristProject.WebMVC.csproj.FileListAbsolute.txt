@@ -2867,3 +2867,5 @@ C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Proje
 C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.WebMVC\obj\Debug\net5.0\ref\TouristProject.WebMVC.dll
 C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.WebMVC\obj\Debug\net5.0\Razor\Areas\Admins\Views\NutrientImages\GetAllNutrientImages.cshtml.g.cs
 C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.WebMVC\obj\Debug\net5.0\Razor\Areas\Admins\Views\NutrientImages\Add.cshtml.g.cs
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.WebMVC\obj\Debug\net5.0\Razor\Areas\Users\Views\Nutrients\Index.cshtml.g.cs
+C:\Users\semih\Desktop\C# Kodları\Biten Yazılımlar\Semih Özcan Tourist_Project\TouristProject_MVC\TouristProject.WebMVC\obj\Debug\net5.0\Razor\Areas\Users\Views\Nutrients\NutrientDetails.cshtml.g.cs
